@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Rodrigo Silva</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho da página -->
+    <header></header>
+    
+    <!-- Menu de navegação principal -->
+    <nav class="menu">
+      <ul>
+        <li><a href="sobre-mim.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portifolio.html">Portifólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seção principal do conteúdo da página -->
+    <section class="principal">
+      <!-- Botão para voltar à página inicial -->
+      <div class="form-botao">
+        <a type="button" class="botao" href="index.html">Voltar para o início</a>
+      </div>
+
+      <!-- Formulário de contato -->
+      <div class="pagina-principal">
+        <form id="form" class="formulario" method="post">
+          <!-- Campo para o nome -->
+          <div class="formulario-item">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" class="campo-formulario" />
+          </div>
+          <!-- Campo para o e-mail -->
+          <div class="formulario-item">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="campo-formulario" />
+          </div>
+          <!-- Campo para a mensagem -->
+          <div class="formulario-item">
+            <label for="mensagem">Mensagem</label>
+            <input type="text" name="mensagem" id="mensagem" class="campo-formulario" />
+          </div>
+          <!-- Botão de envio do formulário -->
+          <div class="form-botao">
+            <button type="button" class="botao" onclick="mostrarConteudo()">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Parágrafo para mostrar o resultado do envio do formulário -->
+    <p id="resultado"></p>
+
+    <!-- Rodapé da página -->
+    <footer id="footer"></footer>
+    
+    <!-- Inclusão do script JavaScript externo -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

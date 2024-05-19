@@ -1,0 +1,141 @@
+/* Remove margens e preenchimentos padrão de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove todas as propriedades padrão dos links */
+a {
+    all: unset;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    height: 20px;
+    background-color: rgb(128, 0, 255); /* Cor de fundo roxa */
+    /* border-bottom: 1px solid black; */
+}
+
+/* Estiliza o menu de navegação */
+.menu {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do menu */
+    background-color: rgba(128, 0, 255, 0.252); /* Cor de fundo roxa com transparência */
+}
+
+.menu ul li {
+    display: inline; /* Exibe os itens de menu na mesma linha */
+    font-family: monospace; /* Fonte do tipo monospace */
+    font-weight: bold; /* Texto em negrito */
+    list-style: none; /* Remove marcadores de lista */
+    font-size: 12px; /* Tamanho da fonte */
+    transition: font-size 0.3s ease-in-out; /* Animação suave ao alterar tamanho da fonte */
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center; /* Centraliza o texto dentro dos itens */
+}
+
+.menu ul li:hover {
+    color: rgba(0, 0, 0, 0.545); /* Cor do texto ao passar o mouse */
+    font-size: 15px; /* Aumenta o tamanho da fonte ao passar o mouse */
+    cursor: pointer; /* Mostra cursor de ponteiro ao passar o mouse */
+}
+
+.principal {
+    margin: 10px;
+}
+
+/* Estiliza a seção do botão */
+.form-botao {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o botão */
+    margin-bottom: 10px;
+}
+
+.botao {
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    border: 1px solid rgb(128, 0, 255); /* Borda roxa */
+    background-color: rgba(128, 0, 255, 0.075); /* Fundo roxo com transparência */
+    font-family: mono; /* Fonte do tipo monospace */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 15px; /* Tamanho da fonte */
+    padding: 4px;
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.botao:hover {
+    cursor: pointer; /* Mostra cursor de ponteiro ao passar o mouse */
+    background-color: rgba(128, 0, 255, 0.150); /* Aumenta a opacidade do fundo ao passar o mouse */
+}
+
+.pagina-principal {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 10px;
+    font-family: mono; /* Fonte do tipo monospace */
+}
+
+/* Estiliza a seção de imagem na página "Sobre mim" */
+.imagem-sobre-mim {
+    padding-bottom: 10px;
+}
+
+.imagem-sobre-mim img {
+    display: flex;
+    width: 50%; /* Largura inicial da imagem */
+    opacity: 1; /* Opacidade inicial da imagem */
+    transition: width 0.4s ease-in-out, opacity 0.4s ease-in-out; /* Animação suave ao alterar largura e opacidade */
+    box-shadow: 4px 3px 10px 0px black; /* Sombra na imagem */
+}
+
+.imagem-sobre-mim img:hover {
+    width: 65%; /* Aumenta a largura ao passar o mouse */
+    opacity: 0.8; /* Reduz a opacidade ao passar o mouse */
+}
+
+.conteudo-sobre-mim p {
+    font-family: mono; /* Fonte do tipo monospace */
+    font-weight: bold; /* Texto em negrito */
+    color: rgba(128, 0, 255, 0.624); /* Cor do texto */
+    cursor: default; /* Define cursor padrão */
+}
+
+/* Estiliza o formulário de contato */
+.formulario {
+    display: flex;
+    justify-content: center; /* Centraliza o formulário horizontalmente */
+    align-items: center; /* Centraliza o formulário verticalmente */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 30px;
+}
+
+.formulario-item {
+    font-family: mono; /* Fonte do tipo monospace */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estiliza a seção de portfólio */
+.portifolio-main {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-top: 15px;
+    font-family: mono; /* Fonte do tipo monospace */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estiliza o rodapé */
+footer {
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Largura total da página */
+    height: 20px;
+    background-color: rgb(128, 0, 255); /* Cor de fundo roxa */
+    color: white; /* Cor do texto branco */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 12px; /* Tamanho da fonte */
+    display: flex;
+    justify-content: center; /* Centraliza o texto horizontalmente */
+    align-items: center; /* Centraliza o texto verticalmente */
+    /* border-bottom: 1px solid black; */
+}
