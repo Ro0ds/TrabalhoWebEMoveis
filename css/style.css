@@ -83,7 +83,7 @@ header {
 
 .imagem-sobre-mim img {
     display: flex;
-    width: 50%; /* Largura inicial da imagem */
+    width: 30%; /* Largura inicial da imagem */
     opacity: 1; /* Opacidade inicial da imagem */
     transition: width 0.4s ease-in-out, opacity 0.4s ease-in-out; /* Animação suave ao alterar largura e opacidade */
     box-shadow: 4px 3px 10px 0px black; /* Sombra na imagem */
