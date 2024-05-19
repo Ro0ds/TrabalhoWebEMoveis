@@ -76,6 +76,8 @@ header {
 
 /* Estiliza a seção de imagem na página "Sobre mim" */
 .imagem-sobre-mim {
+    display: flex;
+    justify-content: center;
     padding-bottom: 10px;
 }
 
