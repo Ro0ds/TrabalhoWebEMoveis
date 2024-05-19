@@ -90,7 +90,7 @@ header {
 }
 
 .imagem-sobre-mim img:hover {
-    width: 65%; /* Aumenta a largura ao passar o mouse */
+    width: 40%; /* Aumenta a largura ao passar o mouse */
     opacity: 0.8; /* Reduz a opacidade ao passar o mouse */
 }
 
