@@ -75,7 +75,7 @@ header {
 }
 
 .imagem-construcao {
-    width: 70%;
+    width: 40%;
 }
 .imagem-construcao:hover {
     -webkit-animation:spin 1s linear both;
