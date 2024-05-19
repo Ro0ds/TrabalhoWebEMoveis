@@ -74,6 +74,27 @@ header {
     font-family: mono; /* Fonte do tipo monospace */
 }
 
+.imagem-construcao {
+    width: 70%;
+}
+.imagem-construcao:hover {
+    -webkit-animation:spin 1s linear both;
+    -moz-animation:spin 1s linear both;
+    animation:spin 1s linear both;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
 /* Estiliza a seção de imagem na página "Sobre mim" */
 .imagem-sobre-mim {
     display: flex;
